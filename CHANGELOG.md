@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/seznam/ima/compare/v17.10.0...v18.0.0) (2021-08-09)
+
+
+### Bug Fixes
+
+* 🐛 fixed dev task ([a25466c](https://github.com/seznam/ima/commit/a25466c89267f171a9c5abec549e8c55d090f2c7))
+* 🐛 Fixed RunImaPlugin ([e33ae30](https://github.com/seznam/ima/commit/e33ae30ee1907b18571309359940cd6c0c86c1ef))
+* local publish ([a014893](https://github.com/seznam/ima/commit/a014893aa02a05dbfb2891969d7d9a46867de185))
+* remove proxy limit in production ([81c6084](https://github.com/seznam/ima/commit/81c6084aaf80587fe0f1e007de485b980cde643f))
+
+
+### Code Refactoring
+
+* 💡 keep same interface for mount and update methods ([fbdd705](https://github.com/seznam/ima/commit/fbdd7056b9ad5599bdc9e7b03ee7d29dbc44ed1f))
+* 💡 remove deprectecated clearState method ([7cab3af](https://github.com/seznam/ima/commit/7cab3af498ee100071ab9bc444683dcade7e9ddf))
+
+
+### Features
+
+* 🎸 add experimental batch resolving promises ([c3704f0](https://github.com/seznam/ima/commit/c3704f06e768ca40b63bc9aa831aef747717e1dc))
+* 🎸 Added ability to override babel and postcss configs ([aef5ef6](https://github.com/seznam/ima/commit/aef5ef6b8762fd4a415baae4591d736840ed3622))
+* 🎸 Added globs support for less/css [@imports](https://github.com/imports) ([96b579c](https://github.com/seznam/ima/commit/96b579cabadb6f57f2fff11b295eacea1a9c09c2))
+* 🎸 Added option to open browser window on ima dev ([d4f595f](https://github.com/seznam/ima/commit/d4f595f8212c22bab66b4d9f29e4a5aab0b9a1b6))
+* 🎸 Added package @ima/cli ([35e3b5f](https://github.com/seznam/ima/commit/35e3b5faee3c8553d319b54d3ffbca904efe071b))
+* 🎸 added postcss-loader ([d2a7bc4](https://github.com/seznam/ima/commit/d2a7bc48683afdfa7c52cafe0dd83af9b3911d3b))
+* 🎸 allow defined ima aliases starting with $ from plugin ([f8cb535](https://github.com/seznam/ima/commit/f8cb5357bcf032cf144ecb76c9bc6182c71c5574))
+* 🎸 batch page state with transactions during loading phase ([8ca6680](https://github.com/seznam/ima/commit/8ca6680c67d0f88b4e57a19b3e97733e8de6922a))
+* 🎸 Hello example with init webpack build ([7bc7d68](https://github.com/seznam/ima/commit/7bc7d6870978fee9f776020cf52c86947b62a799))
+* 🎸 Remove vendorLinker, imaLoader and imaRunner ([7785612](https://github.com/seznam/ima/commit/7785612dff7a27005cacca26a2bb228ba520745a))
+* 🎸 Replace imaLoader for app/main by refactored appFactory ([3297b7b](https://github.com/seznam/ima/commit/3297b7b294b0dc237fc11f64c8606480b9152b92))
+* 🎸 source-maps, global variables ([597ec8c](https://github.com/seznam/ima/commit/597ec8c93d5f0d8d5434529e25f835b628bc65cf))
+
+
+### Performance Improvements
+
+* ⚡️ batch mode keep one free frame between commits ([3be83b3](https://github.com/seznam/ima/commit/3be83b325a907c4e5bb0d944786fece15460c370))
+
+
+### BREAKING CHANGES
+
+* 🧨 Resolved promises from load method are set to view in batches
+* 🧨 yes
+* 🧨 yes
+
+
+
+
+
 # [17.10.0](https://github.com/seznam/ima/compare/v17.9.0...v17.10.0) (2021-03-30)
 
 

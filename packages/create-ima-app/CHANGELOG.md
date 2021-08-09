@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/seznam/ima/compare/v17.10.0...v18.0.0) (2021-08-09)
+
+
+### Bug Fixes
+
+* 🐛 fixed dev task ([a25466c](https://github.com/seznam/ima/commit/a25466c89267f171a9c5abec549e8c55d090f2c7))
+* remove proxy limit in production ([81c6084](https://github.com/seznam/ima/commit/81c6084aaf80587fe0f1e007de485b980cde643f))
+
+
+### Features
+
+* 🎸 added postcss-loader ([d2a7bc4](https://github.com/seznam/ima/commit/d2a7bc48683afdfa7c52cafe0dd83af9b3911d3b))
+* 🎸 Hello example with init webpack build ([7bc7d68](https://github.com/seznam/ima/commit/7bc7d6870978fee9f776020cf52c86947b62a799))
+* 🎸 source-maps, global variables ([597ec8c](https://github.com/seznam/ima/commit/597ec8c93d5f0d8d5434529e25f835b628bc65cf))
+
+
+
+
+
 # [17.10.0](https://github.com/seznam/ima/compare/v17.9.0...v17.10.0) (2021-03-30)
 
 **Note:** Version bump only for package create-ima-app

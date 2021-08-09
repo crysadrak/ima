@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/seznam/ima/compare/v17.10.0...v18.0.0) (2021-08-09)
+
+
+### Bug Fixes
+
+* local publish ([a014893](https://github.com/seznam/ima/commit/a014893aa02a05dbfb2891969d7d9a46867de185))
+
+
+
+
+
 # [17.8.0](https://github.com/seznam/ima/compare/v17.7.10...v17.8.0) (2021-02-03)
 
 **Note:** Version bump only for package @ima/gulp-task-loader

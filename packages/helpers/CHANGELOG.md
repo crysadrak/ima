@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/seznam/ima/compare/v17.10.0...v18.0.0) (2021-08-09)
+
+
+### Bug Fixes
+
+* local publish ([a014893](https://github.com/seznam/ima/commit/a014893aa02a05dbfb2891969d7d9a46867de185))
+
+
+
+
+
 # [17.9.0](https://github.com/seznam/ima/compare/v17.8.1...v17.9.0) (2021-03-21)
 
 
