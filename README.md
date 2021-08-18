@@ -9,6 +9,12 @@
 The IMA.js is an application development stack for developing isomorphic
 applications written in pure JavaScript and React.
 
+---
+**NOTE**
+
+npm6 users: the root postinstall npm script has been removed and have to be executed manually by `lerna bootstrap` after `npm install`
+---
+
 ## Why we use IMA.js and you should too?
 
 Here at [Seznam.cz](https://www.seznam.cz), development of a frontend application comes with many checkboxes that need to be ticked off before the project goes public. Mainly because of a diverse audience and a challenging product requirements.
